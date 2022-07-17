@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import ttk
 import random
+import time
 
 
 root = Tk()
@@ -52,7 +53,7 @@ def sorting():
     global arr
     bubble_sort(arr, drawrectangle, sortingspeed.get())
 
-    import time
+ 
 
 def bubble_sort(data, drawrectangle, delay):
     for i in range(len(data)-1):
